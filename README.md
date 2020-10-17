@@ -1,1 +1,2 @@
-# AndroidUygulamaGelistirme
+# AndroidUygulamaGelistirmeDersi
+## şuanlık içerisi boş :)
