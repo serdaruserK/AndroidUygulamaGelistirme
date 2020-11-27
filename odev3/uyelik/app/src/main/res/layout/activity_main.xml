@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A59A9A"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/isim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İsim:" />
+
+    <EditText
+        android:id="@+id/isimg"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/soyisim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soyisim:" />
+
+    <EditText
+        android:id="@+id/soyisimgi"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/yas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yaş:" />
+
+    <EditText
+        android:id="@+id/yasg"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/eposta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-posta:" />
+
+    <EditText
+        android:id="@+id/epostag"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/sifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Şifre:" />
+
+    <EditText
+        android:id="@+id/sifreg"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/sifret"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Şifre Tekrarı:" />
+
+    <EditText
+        android:id="@+id/sifretg"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/giris"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="#3261DA"
+        android:text="KAYIT" />
+</LinearLayout>
