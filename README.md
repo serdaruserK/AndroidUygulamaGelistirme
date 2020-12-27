@@ -1,2 +1,3 @@
 # AndroidUygulamaGelistirmeDersi
-## şuanlık içerisi boş :)
+
+## Serdar Murat ERİÇOK 
